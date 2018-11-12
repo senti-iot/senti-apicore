@@ -1,6 +1,6 @@
 {
   "name": "senti-apicore",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "deprecated": false,
   "description": "SENTI API core modules",
   "main": "index.js",
@@ -15,8 +15,8 @@
     "IoT",
     "API",
     "Core",
-	"SentiAPI",
-	"SentiAPICore"
+    "SentiAPI",
+    "SentiAPICore"
   ],
   "author": "Christian Broberg",
   "license": "MIT",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/senti-platform/senti-apicore#readme",
   "dependencies": {
+    "apisauce": "^1.0.0",
     "dotenv": "^6.1.0",
     "find-config": "^1.0.0"
   }
