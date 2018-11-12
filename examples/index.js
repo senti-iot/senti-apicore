@@ -1,8 +1,6 @@
 const loadenv = require('../lib/loadenv')
-// const { authenticate } = require('../index')
 const { api, authenticate, encrypt, decrypt } = require('../index')
 const verifyAPIVersion = require('../index').verifyapiversion
-// const { api } = require('../index')
 
 const { ENCRYPTION_KEY } = loadenv
 
