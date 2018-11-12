@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/senti-platform/senti-apicore#readme",
   "dependencies": {
+    "dotenv": "^6.1.0",
     "find-config": "^1.0.0"
   }
 }
