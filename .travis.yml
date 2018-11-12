@@ -1,0 +1,18 @@
+sudo: false
+language: node_js
+node_js:
+- stable
+branches:
+  only:
+  - master
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: cb@webhouse.dk
+  api_key: "$NPM_TOKEN"
+  on:
+    repo: senti-platform/apicore
+notifications:
+  email: true
+  slack:
+    secure: EvWj6hd9dLJQGRGW4NE0/sz6+wv0g9JdbelgOjG+IV8KPTGMTjnDfse3z5UKz7+TxlsAuvJ42LhhtO/9vUzS18w4rOP4VJW6uvwjOhFtMZFknlLlykeWua9XSHMEtc7PLbajcuwdE6I8acC1uscTtmvgEg7C1QGijSDi6nlbBim5TF+IjJFvptwSAL31UzU26Gm4bH8M+QNh3oTASS6O+QHzzPyL3Ri1cFkOUm7KxwYaNGNj6hGTiWtmp9kYUgUsDdTOdlPu9WOdrXZIvZUyhx+dOrx5Mc4MRny378/ucKaO5pjWgPp5WihEfIhHsHzo3SdX5v5RhC5ARmJAz5k5ShhVRXWTRpiZ6sMAiOLzMozHoFGl5m9GJ+ruOQLQy80BLPfHRWlO6cIOBsStddughff2CCbvUGTmr3/b6xj8wnorCCcjiOFq6TD5NfykuJkMn4l/C4kaxl+dWX9+cn2ILILnItXdx0RUHOWEV2W0PF16igrGtLKopwJe+hpxN5gz9KNHbiZL+kfZpetZcQtiYNAvwNtzsqUDH7M7HS3DC16mU93oGvPEQaagNwvTuH4D5LgHZMOu/lD92/RRO5wLxlmoApEbiy2yOJh8kGc47cL17TtDUvfoLfTNNSG6t1DO10GlSGHWDqVxgNg8ygi24s7d63kx/Itxaa/J6TUxpk0=
