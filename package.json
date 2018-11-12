@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/senti-platform/apicore/issues"
   },
-  "homepage": "https://github.com/senti-platform/apicore#readme"
+  "homepage": "https://github.com/senti-platform/apicore#readme",
+  "dependencies": {
+    "find-config": "^1.0.0"
+  }
 }
