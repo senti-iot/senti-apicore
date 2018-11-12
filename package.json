@@ -1,15 +1,15 @@
 {
-  "name": "apicore",
+  "name": "senti-apicore",
   "version": "0.0.1",
   "deprecated": false,
   "description": "SENTI API core modules",
-  "main": "apicore.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/senti-platform/apicore.git"
+    "url": "git+https://github.com/senti-platform/senti-apicore.git"
   },
   "keywords": [
     "Senti",
@@ -22,9 +22,9 @@
   "author": "Christian Broberg",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/senti-platform/apicore/issues"
+    "url": "https://github.com/senti-platform/senti-apicore/issues"
   },
-  "homepage": "https://github.com/senti-platform/apicore#readme",
+  "homepage": "https://github.com/senti-platform/senti-apicore#readme",
   "dependencies": {
     "find-config": "^1.0.0"
   }
