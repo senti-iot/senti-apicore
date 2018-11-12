@@ -10,19 +10,21 @@
 
 // Import modules
 
-var authenticate = require('./lib/authenticate')
-var encryption = require('./lib/encryption')
-var loadenv = require('./lib/loadenv')
-var verifyapiversion = require('./lib/verifyapiversion')
+const authenticate = require('./lib/authenticate')
+const encrypt = require('./lib/encryption').encrypt
+const decrypt = require('./lib/encryption').decrypt
+const loadenv = require('./lib/loadenv')
+const verifyapiversion = require('./lib/verifyapiversion')
 
 /*
-var encrypt = require('./lib/encryption').encrypt
-var decrypt = require('./lib/encryption').decrypt
+const encrypt = require('./lib/encryption').encrypt
+const decrypt = require('./lib/encryption').decrypt
 */
 
 // Expose mqttalk modules
 module.exports.authenticate = authenticate
-module.exports.encryption = encryption
+module.exports.encrypt = encrypt
+module.exports.decrypt = decrypt
 module.exports.loadenv = loadenv
 module.exports.verifyapiversion = verifyapiversion
 /*
