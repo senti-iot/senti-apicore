@@ -13,6 +13,6 @@ deploy:
   on:
     repo: senti-platform/senti-apicore
 notifications:
-  email: true
-  slack: "webhouseteam:82qu1PX5R5wkYNCW5x6fVlhu"
-  
+  email: false
+  # slack: "webhouseteam:82qu1PX5R5wkYNCW5x6fVlhu"
+  slack: "webhouseteam:$SLACK"
