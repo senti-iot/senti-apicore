@@ -13,5 +13,9 @@ deploy:
   on:
     repo: senti-platform/senti-apicore
 notifications:
-  email: false
+  email:
+    recipients:
+      - cb@webhouse.dk
+    on_success: never
+    on_failure: always
   slack: "webhouseteam:82qu1PX5R5wkYNCW5x6fVlhu"
