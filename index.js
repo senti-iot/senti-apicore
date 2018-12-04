@@ -8,7 +8,7 @@
 
 // Import modules
 
-const api = require('./lib/api')
+// const api = require('./lib/api')
 const authenticate = require('./lib/authenticate')
 const encrypt = require('./lib/encryption').encrypt
 const decrypt = require('./lib/encryption').decrypt
@@ -17,7 +17,7 @@ const verifyapiversion = require('./lib/verifyapiversion')
 
 
 // Expose senti-apicore modules
-module.exports.api = api
+// module.exports.api = api
 module.exports.authenticate = authenticate
 module.exports.encrypt = encrypt
 module.exports.decrypt = decrypt
