@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-'use strict'
 
 /*
  * Copyright (c) 2018-2018 senti-apicore.js contributors.
