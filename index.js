@@ -1,7 +1,7 @@
 
 /*
- * Copyright (c) 2018-2018 senti-apicore.js contributors.
- * Copyright (c) 2018-2018 Christian Broberg.
+ * Copyright (c) 2016-2019 senti-iot contributors.
+ * Copyright (c) 2016-2019 Christian Broberg.
  *
  * See LICENSE for more information
  */
