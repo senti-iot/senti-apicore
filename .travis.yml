@@ -9,13 +9,14 @@ deploy:
   skip_cleanup: true
   provider: npm
   email: cb@webhouse.dk
-  api_key: "$NPM_TOKEN"
+  api_key:
+    secure: d0Ki+6Xfkmg4BG9kGU1MJJK8uZURhBAhBdORHVqZzjdMogGmMlmGWmaYRgZy8rnUKmbIe3Qeyc1WUlkmNw2wdDt6RxPoE6KZe/4pX0CqWRcume5Cb9a/83MyhIugY+ClSB8y82CwItaquhElxkPV5bz1NtY7SgnnxalvF1nRz2Qg51rRPkdHqJJbs0MYz7Yskq6FcEn1cmdqOLMxk9yKtqLMx98N1SX6DQfrpxo7yfg96V9T78LpAMG2ZJVJkPAzWHTSPCAXY15uVjX5MNd8GB80vs/cdMe8Px9udsCZFcK00QdoZq2CWXsInRwdW0PSHE6+SXd/U+C/XLdkX/lNE4UFx9v+xZjKydWRwOCkzPT0sElSbLDfpTWg/+uduXa+T+hj8ua52bWwC4MHGz79PNJyiIA3yF66T2EHHiRSiFIDdWCCGC9oYdOLyyrKAFVUQMvgCy2uLrO/WAr0IXJ6NiKEXEtGh+9wBEaVkSppysUYwy0DEgW2PwqWHYiOktjMSx2kd7BWos4janfkn3aniojAl6xkx7BITQtm3oX9v3xrbO+Xbp01eOAo9RmfDcMWi8+K9cCUpJfNTBKQw5nxscTBQlmi+2qDRrO5lQPCK3nDGZyVfgs9jpehbTWS2eJfD+2QC8UwiEZIT5yHu4h5owjMUhptj7AFH2di8dawKGk=
   on:
     repo: senti-iot/senti-apicore
 notifications:
   email:
     recipients:
-      - cb@webhouse.dk
+    - cb@webhouse.dk
     on_success: never
     on_failure: always
   slack:
