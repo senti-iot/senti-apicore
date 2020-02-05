@@ -15,6 +15,7 @@ const decrypt = require('./lib/encryption').decrypt
 const loadenv = require('./lib/loadenv')
 const verifyapiversion = require('./lib/verifyapiversion')
 
+const sentiData = require('./lib/core/sentiData')
 
 // Expose senti-apicore modules
 module.exports.api = api
@@ -23,3 +24,4 @@ module.exports.encrypt = encrypt
 module.exports.decrypt = decrypt
 module.exports.loadenv = loadenv
 module.exports.verifyapiversion = verifyapiversion
+module.exports.sentiData = sentiData
