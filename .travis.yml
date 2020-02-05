@@ -16,7 +16,8 @@ deploy:
 notifications:
   email:
     recipients:
-    - cb@webhouse.dk
+    - mb@webhouse.dk
+    - at@webhouse.dk
     on_success: never
     on_failure: always
   slack:
