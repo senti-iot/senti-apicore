@@ -16,6 +16,8 @@ const loadenv = require('./lib/loadenv')
 const verifyapiversion = require('./lib/verifyapiversion')
 
 const sentiData = require('./lib/core/sentiData')
+const sentiToken = require('./lib/core/sentiToken')
+const sentiMail = require('./lib/core/sentiMail')
 const secureMqttHandler = require('./lib/mqtt/secureMqttHandler')
 
 // Expose senti-apicore modules
@@ -26,4 +28,6 @@ module.exports.decrypt = decrypt
 module.exports.loadenv = loadenv
 module.exports.verifyapiversion = verifyapiversion
 module.exports.sentiData = sentiData
+module.exports.sentiToken = sentiToken
+module.exports.sentiMail = sentiMail
 module.exports.secureMqttHandler = secureMqttHandler
