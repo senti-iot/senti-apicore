@@ -1,6 +1,6 @@
 {
 	"name": "senti-apicore",
-	"version": "0.0.25",
+	"version": "0.0.26",
 	"deprecated": false,
 	"description": "SENTI API core modules",
 	"main": "index.js",
