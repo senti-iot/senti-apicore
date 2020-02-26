@@ -1,6 +1,6 @@
 {
 	"name": "senti-apicore",
-	"version": "0.0.28",
+	"version": "0.0.29",
 	"deprecated": false,
 	"description": "SENTI API core modules",
 	"main": "index.js",
@@ -29,8 +29,10 @@
 	},
 	"homepage": "https://github.com/senti-platform/senti-apicore#readme",
 	"dependencies": {
+		"@sendgrid/mail": "^6.5.3",
 		"apisauce": "^1.1.1",
 		"dotenv": "^8.2.0",
-		"find-config": "^1.0.0"
+		"find-config": "^1.0.0",
+		"uuid": "^7.0.1"
 	}
 }
