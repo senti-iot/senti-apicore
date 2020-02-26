@@ -30,7 +30,6 @@
 	"homepage": "https://github.com/senti-platform/senti-apicore#readme",
 	"dependencies": {
 		"apisauce": "^1.1.1",
-		"crypto": "^1.0.1",
 		"dotenv": "^8.2.0",
 		"find-config": "^1.0.0"
 	}
