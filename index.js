@@ -19,6 +19,8 @@ const sentiData = require('./lib/core/sentiData')
 const sentiToken = require('./lib/core/sentiToken')
 const sentiMail = require('./lib/core/sentiMail')
 const secureMqttHandler = require('./lib/mqtt/secureMqttHandler')
+const sentiAuthClient = require('./lib/authentication/sentiAuthClient')
+
 
 // Expose senti-apicore modules
 module.exports.api = api
@@ -31,3 +33,4 @@ module.exports.sentiData = sentiData
 module.exports.sentiToken = sentiToken
 module.exports.sentiMail = sentiMail
 module.exports.secureMqttHandler = secureMqttHandler
+module.exports.sentiAuthClient = sentiAuthClient

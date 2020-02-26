@@ -1,6 +1,6 @@
 {
 	"name": "senti-apicore",
-	"version": "0.0.26",
+	"version": "0.0.27",
 	"deprecated": false,
 	"description": "SENTI API core modules",
 	"main": "index.js",
@@ -30,6 +30,7 @@
 	"homepage": "https://github.com/senti-platform/senti-apicore#readme",
 	"dependencies": {
 		"apisauce": "^1.1.1",
+		"crypto": "^1.0.1",
 		"dotenv": "^8.2.0",
 		"find-config": "^1.0.0"
 	}
