@@ -22,7 +22,8 @@ const secureMqttHandler = require('./lib/mqtt/secureMqttHandler')
 const sentiAuthClient = require('./lib/authentication/sentiAuthClient')
 const sentiAclClient = require('./lib/acl/aclClient')
 const sentiAclBackend = require('./lib/acl/aclBackendPHP')
-
+const sentiAclPriviledge = require('./lib/acl/dataClasses/Privilege')
+const sentiAclResourceType = require('./lib/acl/dataClasses/ResourceType')
 
 // Expose senti-apicore modules
 module.exports.api = api
@@ -38,3 +39,5 @@ module.exports.secureMqttHandler = secureMqttHandler
 module.exports.sentiAuthClient = sentiAuthClient
 module.exports.sentiAclBackend = sentiAclBackend
 module.exports.sentiAclClient = sentiAclClient
+module.exports.sentiAclPriviledge = sentiAclPriviledge
+module.exports.sentiAclResourceType = sentiAclResourceType
