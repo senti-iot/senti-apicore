@@ -20,6 +20,8 @@ const sentiToken = require('./lib/core/sentiToken')
 const sentiMail = require('./lib/core/sentiMail')
 const secureMqttHandler = require('./lib/mqtt/secureMqttHandler')
 const sentiAuthClient = require('./lib/authentication/sentiAuthClient')
+const sentiAclClient = require('./lib/acl/aclClient')
+const sentiAclBackend = require('./lib/acl/aclBackendPHP')
 
 
 // Expose senti-apicore modules
@@ -34,3 +36,5 @@ module.exports.sentiToken = sentiToken
 module.exports.sentiMail = sentiMail
 module.exports.secureMqttHandler = secureMqttHandler
 module.exports.sentiAuthClient = sentiAuthClient
+module.exports.sentiAclBackend = sentiAclBackend
+module.exports.sentiAclClient = sentiAclClient
