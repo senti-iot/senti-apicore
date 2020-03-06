@@ -1,6 +1,6 @@
 {
 	"name": "senti-apicore",
-	"version": "0.0.38",
+	"version": "0.0.39",
 	"deprecated": false,
 	"description": "SENTI API core modules",
 	"main": "index.js",
@@ -33,6 +33,7 @@
 		"apisauce": "^1.1.1",
 		"dotenv": "^8.2.0",
 		"find-config": "^1.0.0",
+		"mqtt": "^3.0.0",
 		"uuid": "^7.0.1"
 	}
 }
