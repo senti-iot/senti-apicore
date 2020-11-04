@@ -4,7 +4,9 @@
 	"deprecated": false,
 	"description": "SENTI API core modules",
 	"main": "index.js",
-	"scripts": {},
+	"scripts": {
+		"test" : "echo \"No tests\""
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/senti-platform/senti-apicore.git"
