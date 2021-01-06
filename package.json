@@ -1,11 +1,11 @@
 {
 	"name": "senti-apicore",
-	"version": "0.0.53",
+	"version": "0.0.54",
 	"deprecated": false,
 	"description": "SENTI API core modules",
 	"main": "index.js",
 	"scripts": {
-		"test" : "echo \"No tests\""
+		"test": "echo \"No tests\""
 	},
 	"repository": {
 		"type": "git",
@@ -32,7 +32,7 @@
 	"homepage": "https://github.com/senti-platform/senti-apicore#readme",
 	"dependencies": {
 		"@sendgrid/mail": "^6.5.3",
-		"apisauce": "^1.1.1",
+		"apisauce": "^2.0.1",
 		"dotenv": "^8.2.0",
 		"find-config": "^1.0.0",
 		"mqtt": "^3.0.0",
